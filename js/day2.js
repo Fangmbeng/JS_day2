@@ -16,19 +16,19 @@ class user{
     constructor(name, password){
         this.name = name
         this.password = password
-        this.data = []
     }
 
     adduser(oldpassword, newpassword){
         if(oldpassword === this.password){
             this.password = newpassword
-            console.log('This ${this.name} has changed his ${this?password}')
+            console.log('This ${this.name} has changed his ${this.password}')
             console.log(this.data.push(newpassword))
         }else (console.log('Sorry ${this.password} is incorrect'))
     };
 }
 
 let brandon = new user("atonte", "Brandon123");
+console.log(brandon);
 brandon.adduser("Brandon123", "Atonte44")
 
 
