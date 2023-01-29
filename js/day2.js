@@ -22,9 +22,9 @@ class user{
     adduser(oldpassword, newpassword){
         if(oldpassword === this.password){
             this.password = newpassword
-            console.log("This $(this.name) has changed his $(this?password)")
+            console.log('This ${this.name} has changed his ${this?password}')
             console.log(this.data.push(newpassword))
-        }else (console.log("Sorry $(this.password) is incorrect"))
+        }else (console.log('Sorry ${this.password} is incorrect'))
     };
 }
 
